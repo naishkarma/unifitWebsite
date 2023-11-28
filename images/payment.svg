@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="112" viewBox="0 0 120 112">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_907" data-name="Rectangle 907" width="120" height="112" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3579" data-name="Group 3579" clip-path="url(#clip-path)">
+    <path id="Path_247" data-name="Path 247" d="M32.253,9H8.805A7.674,7.674,0,0,0,1,16.813" transform="translate(1.604 14.45)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_248" data-name="Path 248" d="M52.44,24.627V9H29" transform="translate(46.528 14.45)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_249" data-name="Path 249" d="M79.924,37.462,43.462,1,7,37.462" transform="translate(11.231 1.614)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_250" data-name="Path 250" d="M50.473,22.857,37.79,10.1q-5.528,5.528-11.051.005L13.993,22.857" transform="translate(22.451 16.219)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_251" data-name="Path 251" d="M110.386,69.3V90.133H8.813A7.68,7.68,0,0,1,1,82.319V12a7.68,7.68,0,0,0,7.813,7.813H110.386V38.044" transform="translate(1.604 19.263)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_252" data-name="Path 252" d="M39.022,27.209C31.11,27.209,26,33.038,26,40.231s5.11,13.022,13.022,13.022H67.671a7.813,7.813,0,0,0,7.813-7.813V24.6a2.605,2.605,0,0,0-2.6-2.6h-2.6a5.665,5.665,0,0,1-5.209,5.209H39.022" transform="translate(41.715 35.307)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_10" data-name="Line 10" x2="6" transform="translate(78 75)" fill="none" stroke="#fff" stroke-width="3"/>
+  </g>
+</svg>

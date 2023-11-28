@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140.387" height="122.686" viewBox="0 0 140.387 122.686">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_906" data-name="Rectangle 906" width="140.387" height="122.685" fill="none" stroke="#fff" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Group_3577" data-name="Group 3577" clip-path="url(#clip-path)">
+    <path id="Path_244" data-name="Path 244" d="M7.943,70.741A58.425,58.425,0,0,0,113.61,36.369V33.448h5.842L104.847,13,93.163,33.448H99v2.921a43.593,43.593,0,0,1-5.863,21.908" transform="translate(15.259 24.974)" fill="none" stroke="#fff" stroke-width="3"/>
+    <path id="Path_245" data-name="Path 245" d="M113.452,25.049A58.425,58.425,0,0,0,7.785,59.422v2.921H1.943L16.548,82.79,28.233,62.343H22.391V59.422A43.657,43.657,0,0,1,34.157,29.545" transform="translate(3.733 1.921)" fill="none" stroke="#fff" stroke-width="3"/>
+    <line id="Line_9" data-name="Line 9" x2="17.526" y2="17.526" transform="translate(85.054 75.948)" fill="none" stroke="#fff" stroke-width="3"/>
+    <circle id="Ellipse_56" data-name="Ellipse 56" cx="21.908" cy="21.908" r="21.908" transform="translate(47.08 37.974)" fill="none" stroke="#fff" stroke-width="3"/>
+    <path id="Path_246" data-name="Path 246" d="M20.117,25.763l8.763,8.763L40.565,17" transform="translate(38.647 32.658)" fill="none" stroke="#fff" stroke-width="3"/>
+  </g>
+</svg>

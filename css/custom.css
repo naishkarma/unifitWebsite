@@ -1,0 +1,668 @@
+* {margin: 0px;padding: 0px;font-family: 'Lato', sans-serif;}
+body {max-width: 1920px;width: 100%;margin: 0px;overflow-x: hidden;}
+.container-fluid {--bs-gutter-x: 0rem !important;}
+.carousel-indicators [data-bs-target] {width: 1.875rem;height: 1.875rem;border-radius: 100%;opacity: 1;background-color: #fff;}
+.carousel-indicators .active {opacity: 1;background-color: #0f2570 !important;}
+.carousel-caption {position: absolute;right: 15%;bottom: 1.25rem;padding-top: 1.25rem;padding-bottom: 1.25rem;color: #fff;text-align: left;left: 0px;padding-left: 7.8125rem;}
+.carousel-caption h1 {font-size: 85px;font-weight: bold;max-width: 1000px;text-align: left;line-height: 87px !important}
+.carousel-caption p {padding-top: 33px;max-width: 990px;font-size: 28px;line-height: 32px;font-weight: 300;padding-bottom: 20px}
+#myVideo,
+#myVideo1,
+#myVideo2 {min-width: 100%;position: relative;z-index: -3;opacity: 0.5;}
+/**
+ * 
+ *.btn-primary {--bs-btn-color: #fff; --bs-btn-bg: #0f2570; --bs-btn-border-color: #0f2570; --bs-btn-hover-color: #fff; --bs-btn-hover-bg: #0b5ed7; --bs-btn-hover-border-color: #0a58ca; --bs-btn-focus-shadow-rgb: 49,132,253; --bs-btn-active-color: #fff; --bs-btn-active-bg: #0a58ca; --bs-btn-active-border-color: #0a53be; --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); --bs-btn-disabled-color: #fff; --bs-btn-disabled-bg: #0f2570; --bs-btn-disabled-border-color: #0f2570; border-radius:40px; font-size: 22px; padding: 15px;
+ }
+**/
+.home-header {max-width: 1920px;width: 100%;}
+.becomeBtn {font-size: 40px;background: #102570;border-radius: 60px;line-height: 100px;margin-bottom: 70px;width: 480px;height: 119px;}
+.learnmoreBtn {font-size: 40px;background: #102570;border-radius: 60px;padding: 32px 0 43px 0 !important;line-height: 45px;margin-bottom: 70px;width: 402px;height: 119px;}
+.carousel-indicators {position: absolute;right: 183px;bottom: 70px;left: inherit;z-index: 2;display: flex;justify-content: center;padding: 0;margin-right: inherit;margin-bottom: 1rem;margin-left: inherit;list-style: none;}
+.carousel-indicators [data-bs-target] {width: 22px;height: 22px;margin-right: 22px;}
+#headerLogo {position: absolute;z-index: 999;max-width: 196px;top: 44px;left: 126px;}
+#courseFinder {position: absolute;z-index: 999;top: 44px;right: 116px;font: normal normal bold 26px/32px Lato;font-weight: bold;color: #fff;line-height: 28px;border: 4px solid rgba(172, 176, 211, 1.0);padding: 12px 70px;background: rgba(15, 37, 112, .5);border-radius: 1.875rem;}
+#naviTop {position: absolute;z-index: 999;right: 116px;top: 165px;width: auto;font-size: 27px;font-weight: 600;}
+#naviTop a {color: #fff}
+#naviTop .nav-item {font-size: 27px;font-weight: 600;padding-right: 27px}
+section.expansion {background-image: url("../images/bg1.png");background-repeat: no-repeat;background-position: left top;width: 100%}
+section.expansion h2 {font-size: 84px;font-weight: bold;color: #08155F;max-width: 1003px;line-height: 86px; padding-left:0px}
+section.expansion h2 span {width: 22px;height: 22px;background: #5E7DEA;margin-left: 25px;display: inline-block;border-radius: 22px}
+section.expansion p {max-width: 818px;font-size: 28px;font-weight: 300;line-height: 35px; padding-left: 0; float: none; margin-left:0 }
+section.expansion .expansionBox {max-width: 1755px;width: 100%;margin: auto;display: flex;}
+.accManager {background-position: center;background-size: 100%;width: 100%}
+.accManBox {background: #0f2570;border: 1px solid #fff;display: block;min-height: 440px;margin: auto;padding: 45px 45px 45px 45px;}
+.accManBox h3 {font-size: 52px;font-weight: bold;}
+.accManBox p {font-size: 28px;font-weight: 300}
+.accManBox:hover {background: #5e7cea}
+.accManBox img {width: 91px;height: 100px;}
+section.wwNetwork {background: url("../images/Component-19.png") no-repeat left top;padding: 100px 10px 0 10px; background-size:cover}
+section.wwNetwork h3.num {font-size: 72px;font-weight: bold;display: inline-block;padding-top: 112px; padding-left:1.8em}
+section.wwNetwork h2 {font-size: 74px;font-weight: bold;display: inline-block; padding-left: 126px}
+section.wwNetwork h2 span {width: 22px;height: 22px;background: #5E7DEA;margin-left: 25px;display: inline-block;border-radius: 22px}
+section.wwNetwork span.plus {font-size: 72px;font-weight: bold;display: inline-block;}
+section.wwNetwork p {font-size: 30px;font-weight: 500;line-height: 35px; padding-left: 8rem; padding-bottom:144px}
+section.wwNetwork div.desc {max-width: 1299px;width: 100%;font-size: 28px;font-weight: 300;padding-left: 126px;}
+section.wwNetwork .text {font-size: 1.875rem;text-align: left;padding-left: 143px;padding-bottom: 90px}
+section.courseFinder {background: url(../images/computer_platfrom.png) no-repeat left top; background-size: cover;}
+section.courseFinder .cf-divText {background: rgba(255, 255, 255, 0.8);padding: 50px 6.5em 0px 97px; width: 100%; margin-left: 0%;}
+section.courseFinder .cf-divText h2 {font-size: 65px;font-weight: bold;line-height: 57px;margin-bottom: 33px;;}
+section.courseFinder .cf-divText h2 span {width: 22px;height: 22px;background: #5E7DEA;margin-left: 25px;display: inline-block;border-radius: 22px}
+section.courseFinder .cf-divText p {font-size: 27px;line-height: 34px;font-weight: 300;}
+section.courseFinder .cf-divText table td {font-size: 28px;line-height: 34px;padding-top: 10px;padding-bottom: 12px;vertical-align: top;color: #000002}
+section.courseFinder .cf-divText table td span.bullSize {width: 17px;height: 17px;border-radius: 17px 17px;background: #5E7DEA;overflow: hidden;display: block;margin-top: 10px; margin-right:7px}
+section.courseFinder .cf-divText .cFinderBtn {font-size: 40px;background: #5E7DEA;border-radius: 60px;padding: 32px 0 43px 0 !important;line-height: 45px;margin-bottom: 70px;width: 417px;height: 119px;}
+section.courseFinder .cf-divText .cFinderBtn:hover {background: #102570;}
+.bePartner {padding-top: 0px;padding-bottom: 0px;background: #f4f4f4;padding-left: 8em;padding-right: 0px;}
+.bePartner .card {background: none !important;border: 0px}
+.bePartner .card-title {font-size: 65px;color: #08165f;font-weight: 400;line-height: 57px;padding-bottom: 38px;}
+.bePartner .card-title span {width: 22px;height: 22px;background: #5E7DEA;margin-left: 25px;display: inline-block;border-radius: 22px}
+.bePartner .card h3 {font-size: 27px;font-weight: bold;font-style: italic;color: #142164;}
+.bePartner .card ul li {color: #878993;font-size: 24px;line-height: 34px;font-style: italic;list-style: none;}
+.bePartner .card ul li::before {content: "\2022";color: #5D7CE7;padding-right: 15px}
+.bePartner .card .btn-primary {padding: 5px 20px;margin-top: 1.875rem}
+.bePartner .card-text {color: #686C7C;max-width: 636px;width: 100%;font-size: 27px;line-height: 34px;font-style: italic;}
+.bePartner .right-mg {background: url(../images/hand-shake.png) no-repeat right top;background-size: 53.5% 100%;height: 100%;}
+.stdDestination {padding-top: 40px;padding-left: 126px;padding-right: 126px;}
+.stdDestination h2 {font-weight: 600;font-size: 62px;color: #08165f;font-weight: bold}
+.stdDestination h2 span {width: 22px;height: 22px;background: #5E7DEA;margin-left: 25px;display: inline-block;border-radius: 22px}
+.stdDestination .card {background: none;padding: 0px;border: 0px;margin-bottom: 25px}
+.stdDestination img.card-img-top {opacity: .5}
+.stdDestination img.card-img-top:hover {opacity: 1}
+.stdDestination .card-body {padding: 0px;}
+.stdDestination .card h5.card-title {position: absolute;bottom: 20px;left: 25px;color: #fff;font-size: 50px;}
+.footer {background: #0f2570;padding: 50px 100px 10px 100px;background-image: url(../images/footer-logo-watermark.png);background-repeat: no-repeat;background-position: right -50px;background-size: auto 120%;}
+ul.footerMenu {font-size: 16px;list-style: none;padding: 0px}
+ul.footerMenu li a {color: #fff;text-decoration: none}
+.ms-n5 {margin-left: -40px;outline: 0px;border-right: 1px solid #99a2c3;border-top: 0px;border-bottom: 0px;border-left: none;border-radius: 0px;color: #99a2c3}
+.footer .form-control {background: none;border-radius: 0px;height: 37px;border-color: #99a2c3 !important;}
+.footer input[type="search"] {color: #99a2c3 !important}
+.footer .fooSocial img {float: right;margin-left: 10px;outline: none;}
+.footer .sizeonDi {font-size: 14px;margin-bottom: 30px;}
+.dropdown-toggle::after {display: none;}
+.dropdown-toggle::before {display: inline-block;margin-right: .5em;vertical-align: 0.255em;content: "";border: solid #fdfdfd;border-width: 0 3px 3px 0;display: inline-block;padding: 7px;transform: rotate(45deg);-webkit-transform: rotate(45deg);color: #ffffff;width: 18px;height: 7px;}
+.nav-item.dropdown {margin-right: 36px;}
+/*----About Unifit----*/
+
+.home-header-inner {max-width: 1920px;width: 100%;}
+.home-header-inner .nav-inner {height: 249px;background: #102570;}
+.about {background: url(../images/about.png) no-repeat center top;}
+.about-unifit {max-width: 695px;width: 100%;margin-left: 126px;margin-top: 89px;padding-bottom: 50px}
+.about-unifit h2 {font-size: 95px;line-height: 57px;color:#102570;font-weight: 900}
+.about-unifit h2 span {width: 22px;height: 22px;background: #5E7DEA;margin-left: 25px;display: inline-block;border-radius: 22px}
+.about-unifit p {margin-top: 95px;margin-bottom: 95px;font-size: 28px;line-height: 35px;font-weight: 300;}
+
+.ourCEO {background-color: #102570;background-image: url(../images/watermark2.png), url(../images/sid.jpg);background-position: right -75px, left bottom;background-repeat: no-repeat, no-repeat;background-size: contain, auto}
+.ourCEO .text-block {width: 55%;float: right;}
+.text-block .note {font-size: 25px;line-height: 30px;letter-spacing: 5px;color: #ECEEF7;margin-top: 35px}
+.text-block .ceoTitle {font-size: 75px;line-height: 90px;color: #ECEEF7;font-weight: bold;margin-top: -10px}
+.text-block .quote {text-align: left;margin-top: -20px;}
+.text-block p {font-size: 27px;line-height: 35px;color: #FFFFFF;font-style: italic;font-weight: 300;padding-right: 157px;margin-left: 15px;margin-top: -20px}
+.text-block .sign {margin-top: 57px;margin-bottom: 57px;}
+.coreValueLeft {float: left;width: 33%;margin-left: 119px;margin-top: 11%;}
+.coreValueLeft h2 {font-size: 65px;line-height: 35px;color: #08165f;font-weight: bold}
+.coreValueLeft h2 span {width: 22px;height: 22px;background: #5E7DEA;margin-left: 25px;display: inline-block;border-radius: 22px}
+.coreValueLeft p {font-size: 28px;font-weight: 300;line-height: 34px;padding-top: 50px}
+.coreValueRight {float: right;width: 55%;}
+.vision {background: #223D9A;max-height: 702px;height: 100vh;}
+.vision .visionTxt {width: 972px;text-align: center;margin: 11% auto}
+.visionTxt h2 {font-size: 65px;line-height: 57px;font-weight: 900}
+.visionTxt p {font-size: 48px;line-height: 60px;font-weight: 300}
+.visionTxt p span {font-weight: 900}
+
+/*----Become a Partner----*/
+
+.partner {background: url(../images/partner_header.png) no-repeat left top; background-size: cover; }
+.partner .partnerTxt {max-width: 856px;width: 100%;margin-right: 211px;float: right; background:rgba(255,255,255,0); padding:89px 0 0 25px !important}
+.partner .partnerTxt h2 {font-size: 95px;line-height: 57px;font-weight: 900}
+.partner .partnerTxt h2 span {width: 22px;height: 22px;background: #5E7DEA;margin-left: 25px;display: inline-block;border-radius: 22px}
+.partner .partnerTxt p {width: 593px;margin-top: 95px;margin-bottom: 95px;font-size: 28px;line-height: 35px;font-weight: 300;color: #585656;}
+.partner .partnerTxt p span {font-size: 34px;line-height: 35px;display: block;font-weight: bold;font-style: italic;color: #585656;padding-bottom: 35px;}
+.partner .partnerTxt .cFinderBtn {font-size: 40px;background: #5E7DEA;border-radius: 60px;padding: 36px 0 36px 0 !important;line-height: 45px;margin-bottom: 70px;width: 390px;height: 119px;}
+.partner .partnerTxt .cFinderBtn:hover {background: #102570;}
+
+/*----Student Loan----*/
+.studentLoanLeft {float: left;width: 805px; margin-left: 179px;padding: 81px 0;}
+.studentLoanLeft h2 {font-size: 65px;line-height: 57px;color: #010412;font-weight: 900}
+.studentLoanLeft h2 span {width: 22px;height: 22px;background: #5E7DEA;margin-left: 25px;display: inline-block;border-radius: 22px}
+.studentLoanLeft p {font-size: 28px;font-weight: 300;line-height: 34px;padding-top: 18px}
+.studentLoanLeft table td {font-size: 28px;line-height: 34px;padding-top: 10px;padding-bottom: 12px;vertical-align: top;color: #000002}
+.studentLoanLeft table td span.bullSize {width: 17px;height: 17px;border-radius: 17px 17px;background: #5E7DEA;overflow: hidden;display: block;margin-top: 10px}
+.studentLoanRight {float: right;width: 834px; margin-top: 170px; padding-right:70px}
+.studentLoanRight img {width: 100%}
+
+/*----Why Unifit----*/
+.whyUnifit {max-width: 1636px;width:100%; margin: 0px auto;padding-top: 73px;padding-bottom: 50px;}
+.whyUnifit h2 {font-size: 65px;line-height: 57px;color: #010412;font-weight: bold;margin-bottom: 44px;}
+.whyUnifit .whyBox1,
+.whyBox2,
+.whyBox3 {width: 33%; height: 387px;float: left;border: 1px solid #FFFFFF;}
+.whyBox1 {background: #102570 url(../images/Group-3479.png) no-repeat right bottom; background-origin: content-box; padding: 38px 30px 30px 0;}
+.whyBox2 {background: #5E7DEA url(../images/Group-3477.png) no-repeat right bottom; background-origin: content-box; padding: 38px 30px 30px 0;}
+.whyBox3 {background: #102570 url(../images/globe.png) no-repeat right bottom; background-origin: content-box; padding: 38px 30px 30px 0;}
+.whyUnifit .whyBox1 h3,.whyBox2 h3,.whyBox3 h3 {font-size: 52px;line-height: 54px;margin: 0px 129px 0 45px;}
+.whyUnifit .whyBox1 p,.whyBox2 p,.whyBox3 p {font-size: 28px;line-height: 34px;margin: 19px 48px 0 45px;font-weight: 300;}
+.topPriority {background: url(../images/topPriorityBG.jpg) no-repeat left top;background-size: cover}
+.topPriority .topPriorityTxtBox {width: 55%;float: left;margin: 52px 0 0 125px;}
+.topPriority .topPriorityimgBox {max-width: 33%;float: left;margin: 127px 0 0 0;}
+.topPriority .topPriorityTxtBox h2 {font-size: 72px;line-height: 1em;font-weight: bold;padding-top: 35px;}
+.topPriority .topPriorityTxtBox h3 {font-size: 40px;line-height: 34px;font-weight: bold;margin-top: 46px;}
+.topPriority .topPriorityTxtBox p {max-width: 782px;width: 100%;font-size: 25px;line-height: 34px;font-weight: 400;font-style: italic;}
+.topPriority .topPriorityTxtBox .topPriorityBlock1 {float: left;text-align: left; max-width:287px; width:100%}
+.topPriority .topPriorityTxtBox .topPriorityBlock1 img {margin-top: 91px;width: 115px;}
+.topPriority .topPriorityTxtBox .topPriorityBlock1 h3 {font-size: 30px;line-height: 35px;font-weight: bold;margin: 0px;}
+.topPriority .topPriorityTxtBox .topPriorityBlock1 p {font-size: 28px;;font-weight: 300;line-height: 35px;padding-top: 42px;margin-bottom: 65px;}
+
+/*----Our Platform----*/
+
+.platform {background: url(../images/computer_platfrom2.png) no-repeat left top; background-size: 82% 100%; }
+.platform .platformTxt {max-width: 657px;width: 100%;margin-right: 211px;padding-bottom: 50px;float: right; background:transparent; padding-left: 0px;}
+.platform .platformTxt h2 {font-size: 95px;line-height: 57px;font-weight: 900; margin-top:155px}
+.platform .platformTxt h2 span {width: 22px;height: 22px;background: #5E7DEA;margin-left: 25px;display: inline-block;border-radius: 22px}
+.platform .platformTxt p {width: 657px;margin-top: 95px;margin-bottom: 69px;font-size: 28px;line-height: 35px;font-weight: 300;color: #585656;}
+.platform .platformTxt p span {font-size: 34px;line-height: 35px;display: block;font-weight: bold;font-style: italic;color: #102570;padding-bottom: 35px;}
+
+.platform .demoBtn a {font-size: 40px; background: #5E7DEA; border-radius: 60px; padding: 36px 0 36px 0 !important; line-height: 45px; margin-bottom: 69px; width: 390px; height: 119px; display:block}
+.platform .platformTxt .cFinderBtn:hover {background: #102570;}
+
+/*----Global Access----*/
+
+.globalAccess {margin-top: 50px;}
+.globalAccess .globalAccessTxt {max-width: 640px;width: 100%;margin-left: 187px;margin-top: 89px;padding-bottom: 50px;}
+.globalAccess .globalAccessTxt h2 {font-size: 62px;line-height: 64px;color: #102570;font-weight: 900;padding-top: 115px;}
+.globalAccess .globalAccessTxt h2 span {width: 22px;height: 22px;background: #5E7DEA;margin-left: 25px;display: inline-block;border-radius: 22px}
+.globalAccess .globalAccessTxt p {width: 657px;margin-top: 30px;margin-bottom: 69px;font-size: 28px;line-height: 35px;font-weight: 300;color: #585656;}
+.globalAccess .globalAccessTxt p span {font-size: 34px;line-height: 35px;display: block;font-weight: bold;font-style: italic;color: #102570;padding-bottom: 35px;}
+
+/*----Our Platform Course Finder----*/
+
+.plt_cFinder {margin-top: 100px}
+.plt_cFinder .plt_cFinderTxt {max-width: 640px;width: 100%;margin-left: 187px;margin-top: 0px;padding-bottom: 50px;}
+.plt_cFinder .plt_cFinderTxt h2 {font-size: 65px;line-height: 57px;color: #102570;font-weight: 900;padding: 0;margin: 0;}
+.plt_cFinder .plt_cFinderTxt h2 span {width: 22px;height: 22px;background: #5E7DEA;margin-left: 25px;display: inline-block;border-radius: 22px}
+.plt_cFinder .plt_cFinderTxt p {width: 657px;margin-top: 53px;margin-bottom: 0px;font-size: 28px;line-height: 35px;font-weight: 300;color: #585656;}
+.plt_cFinder .rightPanlePlatform {margin-top: 100px;}
+.plt_cFinder table td {font-size: 28px;line-height: 34px;padding-top: 10px;padding-bottom: 12px;vertical-align: top;color: #000002}
+.plt_cFinder table td span.bullSize {width: 17px;height: 17px;border-radius: 17px 17px;background: #5E7DEA;overflow: hidden;display: block;margin-top: 10px}
+.plt_cFinder .cFinderBtn {font-size: 40px;background: #5E7DEA;border-radius: 60px;padding: 32px 0 0 0 !important;line-height: 45px;margin-bottom: 0px;width: 417px;height: 119px;}
+.plt_cFinder .cFinderBtn:hover {background: #102570;}
+.reqDemo {max-width: 1018px;width: 100%;border: 1px solid #707070;padding: 65px 0;margin: 181px auto 141px auto;}
+.reqDemo h3 {font-size: 50px;line-height: 54px;font-weight: 900;color: #010412;}
+.reqDemo .demoCall {font-size: 40px;background: #5E7DEA;border-radius: 60px;padding: 32px 0 42px 0 !important;line-height: 45px;margin-top: 60px;width: 670px;height: 119px;}
+.reqDemo .cFinderBtn:hover {background: #102570;}
+
+
+/*---  Contact Page  -------*/
+
+
+
+#cForm .formWidth {width: 1025px;margin: 106px auto 188px auto;}
+#cForm .formWidth input[type='text'],
+#cForm .formWidth textarea {font-size: 35px;line-height: 41px;color: #2B2829;padding: 25px 33px 25px 33px;margin-bottom: 18px;border: 1px solid #707070;float: left;}
+#cForm .formWidth .inpL,
+#cForm .formWidth .inpR {width: 502px;}
+#cForm .formWidth .inpL {margin-right: 17px;}
+#cForm .formWidth .inp {width: 100%;}
+#cForm .formWidth textarea {width: 100%;}
+#cForm .formWidth .submitBtn {font-size: 40px;background: #5E7DEA;border-radius: 100px;line-height: 45px;margin: 60px auto 80px auto;width: 455px;height: 130px;border: 0px;outline: 0;color: #ffffff;}
+#cForm .formWidth .submitBtn:hover {background: #142562;color: #ffffff;}
+#cForm .formWidth h2 {font-size: 95px;line-height: 97px;font-weight: 900;color: #102570;text-align: center;margin-bottom: 35px;}
+#cForm .formWidth h4 {text-align: center;font-size: 35px;line-height: 35px;letter-spacing: 7px;text-transform: uppercase;color: #102570;}
+.meetExpert {border: 1px solid #192D74;padding: 69px 140px 0px 140px;margin-bottom: 65px;}
+.meetExpert h3 {font-size: 47px;font-weight: 900;text-align: center;margin-bottom: 26px;}
+.meetExpert p {font-size: 35px;line-height: 42px;color: #0A0A0A;text-align: center;}
+.address {text-align: center;}
+.address .addHead {font-size: 47px !important;line-height: 56px !important;font-weight: 900 !important;}
+.address p {width: 666px;color: #01030B;font-size: 35px;line-height: 42px;margin: 0 auto;padding: 5px 60px;}
+.loginBX {max-width: 602px;width: 100%;margin: 75px auto;}
+.loginBX h2 {font-size: 95px;line-height: 97px;font-weight: 900;text-align: center;color: #102570;margin-bottom: 35px}
+.loginBX input[type='email'],
+.loginBX input[type='password'] {padding: 25px 46px;font-size: 28px;color: #102570;text-align: left;width: 100%;margin-bottom: 17px;font-weight: 300;}
+.loginBX input[type='checkbox'] {width: 21px;height: 21px;}
+.loginBX .label {font-size: 28px;color: #102570;text-align: left;font-weight: 300;}
+.loginBX .loginBtn {width: 602px;color: #FFFFFF;font-size: 40px;line-height: 48px;margin-top: 25px;padding: 23px 0;text-align: center;background: #102570;border-radius: 100px;border: 0px;}
+.loginBX .orUnderline {width: 602px;border-top: 1px solid #333;z-index: -1;position: relative;margin-top: 35px;}
+.loginBX .orUnderlineUp {font-size: 28px;font-weight: 300;position: relative;text-align: center;background: #fff;width: 50px;margin: -22px auto 0 auto;}
+.loginBX img {width: 100%;}
+.loginBX .forgotPassword a {font-size: 28px;font-weight: 300;color: #102570;text-decoration: none;margin-top: 25px;margin-bottom: 35px;display: block;}
+.loginBX .anAccount {width: 100%;}
+.loginBX .anAccount h2 {color: #102570;font-size: 45px;line-height: 45px;font-weight: 900;text-align: center;margin-bottom: 40px;}
+.loginBX .registerBtn {width: 602px;color: #FFFFFF;font-size: 40px;line-height: 48px;padding: 23px 0;text-align: center;background: #102570;border-radius: 100px;border: 0px;}
+
+
+/***********  Screen Size 1336px to 1775 PX  *********************/
+@media screen and (min-width: 1336px) and (max-width: 1775px) {
+
+body {max-width: 1775px; width: 100%; margin: 0px;}
+#headerLogo { max-width: 139px; }
+#naviTop .nav-item {font-size: 24px;}
+.accManBox h3 { font-size: 42px;}
+section.wwNetwork p { padding-left:2.5em}
+section.wwNetwork h3.num {padding-left:1.1em}
+section.courseFinder .cf-divText {padding: 50px 4.5em 0px 3em;}
+.bePartner .card-text { max-width: 555px; display: block;}
+.bePartner { padding-left: 4em;}
+/**** About ******/
+.coreValueLeft { width: 40%; margin-top: 4%;}
+.coreValueRight {width: 50%;}
+
+/**** Platform ******/
+.platform .platformTxt { margin-right: 2em;}
+.globalAccess .globalAccessTxt { margin-left: 52px;}
+.plt_cFinder .plt_cFinderTxt {max-width: 610px;  margin-left: 52px;}
+.plt_cFinder .plt_cFinderTxt p {width: 600px;}
+
+/**** partner ******/
+.partner .partnerTxt { margin-right: 149px; background: rgba(255,255,255,.5);}
+.whyUnifit .whyBox1, .whyBox2, .whyBox3 {width: 457px;}
+.topPriority .topPriorityTxtBox {width: 63%;}
+.topPriority .topPriorityimgBox {max-width: 26%;}
+
+.studentLoanLeft {float: left; width: 100%; margin-left: 45px;padding: 81px 0;}
+.studentLoanRight {float: right; width: 90%; margin-top: 170px; padding-right:45px}
+
+}
+
+/***********  Screen Size 1200px to 1335 PX  *********************/
+@media screen and (min-width: 1200px) and (max-width: 1335px) {
+
+body {max-width: 1335px; width: 100%; margin: 0px; padding: 0;}
+#headerLogo { max-width: 139px; }
+#naviTop .nav-item {font-size: 20px;}
+.accManBox h3 { font-size: 35px;}
+section.wwNetwork p { padding-left:2.5em}
+section.wwNetwork h3.num {padding-left:1.1em}
+section.courseFinder .cf-divText {padding: 50px 4.5em 0px 3em;}
+.bePartner .right-mg {background: url(../images/hand-shake.png) no-repeat right center;  background-size: 48%;}
+.bePartner .card-text { max-width: 555px; display: block;}
+.bePartner { padding-left: 0em;}
+section.expansion h2 { font-size: 65px;}
+section.expansion p { max-width: 680px;}
+   
+/**** About ******/
+
+.coreValueLeft { width: 52%; margin-left: 74px; margin-top: 5%;}
+.coreValueRight {width: 40%; margin-top: 2%;}
+
+/**** Platform ******/
+.platform .platformTxt { max-width: 665px; margin-right: 100px;  background: rgba(255,255,255,0.9); padding-left: 40px !important;}
+.globalAccess .globalAccessTxt {margin-left: 87px;}
+.globalAccess .globalAccessTxt p {width: 543px;}
+.plt_cFinder .plt_cFinderTxt { margin-left: 80px;}
+.plt_cFinder .plt_cFinderTxt p {width: 570px;}
+
+/**** partner ******/
+.partner .partnerTxt { margin-right: 149px; background: rgba(255,255,255,.5);}
+.whyUnifit {
+    max-width: 1200px;
+    width:100%;
+}
+.whyUnifit .whyBox1, .whyBox2, .whyBox3 {width: 403px;}
+.topPriority {
+    background: url(../images/topPriorityBG.jpg) no-repeat center top;
+    background-size: cover;
+}
+.topPriority .topPriorityTxtBox {width: 80%;}
+.topPriority .topPriorityTxtBox h2 { font-size: 53px;}
+.topPriority .topPriorityimgBox {max-width: 26%; display: none;}
+
+.studentLoanLeft {float: left; width: 100%; margin-left: 45px;padding: 81px 0;}
+.studentLoanRight {float: right; width: 90%; margin-top: 170px; padding-right:45px}
+
+}
+
+/***********  Screen Size 992px to 1199PX  *********************/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+   
+    body{ max-width:1199px; width:100%; margin: 0px; overflow-x:hidden; }    
+    .container-fluid { --bs-gutter-x: 0rem !important;}
+    #myVideo,#myVideo1,#myVideo2 { min-width: 100%; position: relative; z-index: -3; opacity: 0.5; height:122vh }
+    .home-header{ max-width:1199px; width:100%; }
+    .home-header .bg-clr-mobile { height: 132px; background-color: #036;}
+    .home-header .row>* { padding-right: calc(var(--bs-gutter-x) * 0); padding-left: calc(var(--bs-gutter-x) * 0); }
+    .home-header-inner .nav-inner { height: 132px; background: #102570;    }
+
+    #headerLogo{ position: absolute;  z-index:999; max-width:85px; top:30px; left:3%; }
+    #courseFinder{ display: none; }
+    #naviTop{ position:absolute; z-index:999; right:3%; top:20px; width: auto; font-size: 1.2em; font-weight: bold;}
+    #naviTop a{ color:#fff }    
+    .navbar-toggler { color:#fff }  
+  
+    #naviTop { background: #036; padding: 25px; }
+    .carousel-caption { top:3em}
+    .carousel-caption h1 { font-size: 55px; max-width: 992px; line-height: 55px !important;}
+    section.expansion h2 { font-size: 55px; line-height: 55px;}
+    section.expansion p { max-width: 564px; font-size: 20px; line-height: 1.2em; float: none; }
+    .accManBox {min-height: 350px; padding: 25px;}
+    .accManBox h3 { font-size: 24px;}
+    section.wwNetwork h2 { font-size: 52px;}
+    section.wwNetwork h3.num { font-size: 40px; padding-top: 80px; }
+    section.wwNetwork span.plus { font-size: 40px;}
+    section.wwNetwork p { font-size: 25px; line-height: 25px; padding-left: 4rem; padding-bottom:80px}
+    section.courseFinder .cf-divText { width: 200%; margin-left: -100%;}
+    section.courseFinder .cf-divText p { font-size: 24px; line-height: 28px;}
+    section.courseFinder .cf-divText table td { font-size: 24px; line-height: 28px;}
+    .bePartner .right-mg { background: linear-gradient(45deg, rgba(245,255,255, 0.9), rgba(255,255,255, 0.8)), url(../images/hand-shake.png) no-repeat right top; background-size: cover; padding-left:8em }
+    .bePartner { padding-left: 0em; }
+    .stdDestination .card h5.card-title { font-size: 28px; }
+
+    /**** About ******/
+    .coreValueLeft { width: 50%; margin-top: 7%; margin-right:2%}
+    .coreValueRight {width: 42%; margin-top: 7%; float: left;}
+    .about { background: url(../images/about.png) no-repeat 100% top;  }
+    .about-unifit { max-width: 100%; margin: 0 auto; background:rgba(255,255,255,0.8); padding:100px 50px 50px 50px    }
+    .text-block p { font-size: 20px; line-height: 28px; padding-right: 50px; margin-left: 63px;    }
+
+    .coreValueLeft {  width: 50%; margin-left: 50px; }
+    .coreValueLeft h2 { font-size: 50px;}
+    .coreValueLeft p { font-size: 24px; line-height: 30px; }
+
+    /**** Platform ******/
+    
+    .platform { background: linear-gradient(45deg, rgba(245,255,255, 0.9), rgba(255,255,255, 0.8)),  url(../images/computer_platfrom2.png) no-repeat left top; background-size: cover;    }
+
+    .platform .platformTxt h2 { font-size: 65px; margin-top: 100px;    }
+    .platform .platformTxt p { margin-top: 75px; margin-bottom: 69px; }
+
+    /******  Global Access  ******/
+    .globalAccess .globalAccessTxt {  margin-left: 50px; margin-top:0px }
+    .globalAccess .globalAccessTxt p { width: 90%; margin-left: 0px; }
+    .globalAccess .globalAccessTxt h2 {  font-size: 50px; padding-top: 0px; margin-left: 0px; }
+
+    /******  Course Finder  ******/
+
+    .plt_cFinder .plt_cFinderTxt {max-width: 100%x;margin-left: 50px;     }
+    .plt_cFinder .plt_cFinderTxt h2 { font-size: 55px;}
+    .plt_cFinder .plt_cFinderTxt p {width: 90%; margin-top: 30px; margin-bottom: 0px; font-size:24px; line-height:30px; }
+    .plt_cFinder table td { font-size: 24px; line-height: 28px;}
+    .plt_cFinder .rightPanlePlatform { margin-top: 78px;}
+
+    /******  Request Demo  ******/
+
+    .reqDemo {max-width: 90%; margin: 141px auto 101px auto; }
+
+    /**** partner ******/
+.partner .partnerTxt { margin-right: 0px; background: rgba(255,255,255,.5); max-width: 1005px; padding: 89px 0 0 50px !important;}
+.whyUnifit { max-width: 970px; width:100%;}
+.whyUnifit .whyBox1, .whyBox2, .whyBox3 {width: 331px;}
+.whyUnifit .whyBox1 h3, .whyBox2 h3, .whyBox3 h3 { font-size: 45px;}
+.whyUnifit .whyBox1 p, .whyBox2 p, .whyBox3 p { font-size: 25px; line-height: 30px;}
+.topPriority { background: url(../images/topPriorityBG.jpg) no-repeat center top; background-size: cover;}
+.topPriority .topPriorityTxtBox {max-width:1200px; width: 100%; margin: 52px 0 0 50px; }
+.topPriority .topPriorityTxtBox h2 {font-size: 45px;}
+.topPriority .topPriorityimgBox {max-width: 26%; display: none;}
+
+.studentLoanLeft {float: left; width: 100%; margin-left: 45px;padding: 81px 0;}
+.studentLoanRight {float: right; width: 90%; margin-top: 170px; padding-right:45px}
+
+
+
+}
+
+/***********  Screen Size 576px to 991PX  *********************/
+@media screen and (min-width: 576px) and (max-width: 991px) {
+   
+    body{ max-width:991px; width:100%; margin: 0px; overflow-x:hidden; }    
+    .container-fluid { --bs-gutter-x: 0rem !important;}
+    #myVideo,#myVideo1,#myVideo2 { min-width: 100%; position: relative; z-index: -3; opacity: 0.5; }
+    .home-header{ max-width:991px; width:100%; }
+    .home-header .bg-clr-mobile { height: 132px; background-color: #036;}
+    .home-header .row>* { padding-right: calc(var(--bs-gutter-x) * 0); padding-left: calc(var(--bs-gutter-x) * 0); }
+    .home-header-inner .nav-inner { height: 132px; background: #102570;    }
+    #headerLogo{ position: absolute;  z-index:999; max-width:85px; top:30px; left:3%; }
+    #courseFinder{ display: none; }
+    #myVideo,#myVideo1, #myVideo2 {min-width: 100%;position: relative;z-index: -3;opacity: 0.5; height:900px}
+    #naviTop{ position:absolute; z-index:999; right:3%; top:20px; width: auto; font-size: 1.2em; font-weight: bold;}
+    #naviTop a{ color:#fff }    
+    .navbar-toggler { color:#fff }    
+    .carousel-caption { top:3em}
+    .carousel-caption h1 { font-size: 55px; max-width: 992px; line-height: 55px !important;}
+    section.expansion h2 { font-size: 55px; line-height: 55px; padding-left:25px}
+    section.expansion p { max-width: 564px; padding-left:25px; font-size: 20px; line-height: 1.2em; float: left; margin-left:25px}
+    .accManBox {min-height: 350px; padding: 25px; }
+    .becomeBtn { font-size: 34px; line-height: 77px; margin-bottom: 50px; width: 381px; height: 101px; }
+    .accManBox h3 { font-size: 24px;}
+    section.wwNetwork {background-size:contain; background: url(../images/Component-19.png) no-repeat center top; padding-bottom:80px    }
+    
+    section.wwNetwork h2 { font-size: 35px; padding-left: 45px;}
+    section.wwNetwork h2 span {width: 15px; height:15px;}
+    section.wwNetwork div.desc { padding-left: 45px; font-size:20px;    }
+    section.wwNetwork h3.num { font-size: 40px; padding-top: 80px; }
+    section.wwNetwork span.plus { font-size: 40px;}
+    section.wwNetwork p { font-size: 25px; line-height: 25px; padding-left: 4rem; padding-bottom:0px}
+    section.courseFinder .cf-divText h2 { font-size: 45px; line-height: 45px;    }
+    section.courseFinder .cf-divText h2 span{ width:15px; height:15px;}
+    section.courseFinder .cf-divText { width: 100%; margin-left: 0%;}
+    section.courseFinder .cf-divText p { font-size: 20px; line-height: 28px;}
+    section.courseFinder .cf-divText table td { font-size: 20px; line-height: 28px;}
+    section.courseFinder .cf-divText .cFinderBtn { font-size: 34px; line-height: 34px; width: 381px; height: 101px;    }
+    .bePartner .right-mg { background: linear-gradient(45deg, rgba(245,255,255, 0.9), rgba(255,255,255, 0.8)), url(../images/hand-shake.png) no-repeat right top; background-size: cover; padding-left:8em }
+    .bePartner { padding-left: 0em; }
+    .learnmoreBtn { font-size: 34px; line-height: 34px; width: 381px; height: 101px;    }
+    .stdDestination .card h5.card-title { font-size: 28px; }
+    section.courseFinder { background: url(../images/computer_platfrom.png) no-repeat left top; background-size: cover;}
+    .footer .fooSocial img {float: left;margin-left: 10px;outline: none; margin-top:20px}    
+    .footer .sizeonDi .text-end {text-align: left !important;    }    
+    #naviTop { background: #036; padding: 25px;}
+    .bePartner .right-mg { padding-left: 3em;     }
+    .bePartner .card-title { font-size: 50px; }
+    .stdDestination h2 { font-size: 38px; }
+
+    .footer { padding: 50px 50px 10px 50px; background-size: cover;     }
+
+    /**** About ******/
+    .coreValueLeft { width: 50%; margin-top: 7%; margin-right:2%}
+    .coreValueRight {width: 100%; margin-top: 7%; float: left;}
+    .about { background: url(../images/about.png) no-repeat 100% top;  }
+    .about-unifit { max-width: 100%; margin: 0 auto; background:rgba(255,255,255,0.8); padding:100px 50px 50px 50px}
+    .about-unifit h2 { font-size: 50px; line-height: 57px; }
+    .about-unifit p { font-size: 24px; line-height: 30px; }
+    .ourCEO {background-position: right -75px, right 100px; background-size: contain, 46%; }
+    .ourCEO .text-block { width: 90%; float: right;     }
+    .text-block p { font-size: 20px; line-height: 24px; padding-right: 50px; margin-left: 15px; margin-top: 0px;  }
+
+    .coreValueLeft {  width: 80%; margin-left: 50px; }
+    .coreValueLeft h2 { font-size: 50px;}
+    .coreValueLeft p { font-size: 24px; line-height: 30px; }
+    .vision .visionTxt { transform:scale(0.75); margin: 2% auto; }
+
+    /**** Platform ******/
+    
+    .platform {     background: linear-gradient(45deg, rgba(245,255,255, 0.9), rgba(255,255,255, 0.8)), url(../images/computer_platfrom2.png) no-repeat left top;  background-size: cover;    }
+    .platform .platformTxt { max-width: 550px; width: 100%; margin-right: 0px; }
+    .platform .platformTxt p {  width: 530px;  }
+
+    .platform .platformTxt h2 { font-size: 65px; margin-top: 100px;    }
+    .platform .platformTxt p { margin-top: 75px; margin-bottom: 69px; }
+
+    /******  Global Access  ******/
+    .globalAccess .globalAccessTxt {  margin-left: 50px; margin-top:0px }
+    .globalAccess .globalAccessTxt p { width: 90%; margin-left: 0px; }
+    .globalAccess .globalAccessTxt h2 {  font-size: 50px; padding-top: 0px; margin-left: 0px; }
+    .globalAccess img{ width:100%    }
+
+    /******  Course Finder  ******/
+
+    .plt_cFinder .plt_cFinderTxt {max-width: 100%x;margin-left: 50px;     }
+    .plt_cFinder .plt_cFinderTxt h2 { font-size: 55px;}
+    .plt_cFinder .plt_cFinderTxt p {width: 90%; margin-top: 30px; margin-bottom: 0px; font-size:24px; line-height:30px; }
+    .plt_cFinder table td { font-size: 24px; line-height: 28px;}
+    .plt_cFinder .rightPanlePlatform {margin:0 auto ;margin-top: 78px; width:80%}
+
+    /******  Request Demo  ******/
+
+    .reqDemo {max-width: 85%; margin: 141px auto 101px auto !important; }
+    .reqDemo .demoCall {transform:scale(.8); font-size: 35px; padding: 32px 0 42px 0 !important; line-height: 45px; margin-top: 60px; width: 80%;  height: 119px; }
+    .reqDemo h3 { font-size: 40px; line-height: 54px; font-weight: 900; color: #010412;    }
+
+     /**** partner ******/
+.partner .partnerTxt { margin-right: 0px; background: rgba(255,255,255,.5); max-width: 1005px; padding: 89px 0 0 50px !important;}
+.partner .partnerTxt h2 { font-size: 50px; }
+.partner .partnerTxt p { width: 500px;}
+.topPriority .topPriorityTxtBox h3 { font-size: 30px;}
+.learnmoreBtn {font-size: 40px; width: 316px; height: 77px; line-height: 0px; padding: 0px; }
+.partner .partnerTxt .cFinderBtn { font-size: 40px; width: 316px; height: 77px; line-height: 0px; padding: 0px; }
+
+.whyUnifit { max-width: 991px; width:100%;}
+.whyUnifit h2 { font-size: 45px; line-height: 45px;}
+.whyUnifit .whyBox1, .whyBox2, .whyBox3 {width: 261px;}
+
+.whyUnifit .whyBox1 h3, .whyBox2 h3, .whyBox3 h3 { font-size: 35px; line-height: 1.2em;}
+.whyBox1  { padding: 38px 20px 30px 0;}
+.whyBox2  { padding: 38px 20px 30px 0;}
+.whyBox3  { padding: 38px 20px 30px 0;}
+.whyUnifit .whyBox1 p, .whyBox2 p, .whyBox3 p { font-size: 20px; line-height: 28px; margin: 19px 25px 0 25px;}
+.topPriority { background: url(../images/topPriorityBG.jpg) no-repeat center top; background-size: cover;}
+.topPriority .topPriorityTxtBox {max-width:991px; width: 100%; margin: 52px 0 0 25px; }
+.topPriority .topPriorityTxtBox h2 {font-size: 33px;}
+.topPriority .topPriorityTxtBox p { max-width: 550px; width: 100%; font-size: 24px;}
+.topPriority .topPriorityTxtBox .topPriorityBlock1 {float: left;text-align: left; max-width:245px; width:100%}
+.topPriority .topPriorityTxtBox .topPriorityBlock1 p {font-size: 24px;}
+
+.topPriority .topPriorityimgBox {max-width: 26%; display: none;}
+
+.studentLoanLeft {float: left; width: 90%; margin-left: 45px;padding: 81px 0;}
+.studentLoanRight {float: right; width: 90%; margin-top: 0px; padding-right:45px}
+}
+
+
+/***********  Screen Size 375px to 575PX  *********************/
+@media screen and (min-width: 375px) and (max-width: 575px) {
+   
+    body{ max-width:575px; width:100%; margin: 0px; overflow-x:hidden; }    
+    .home-header-inner .nav-inner { height: 132px; }
+    .container-fluid { --bs-gutter-x: 0rem !important;}
+    #myVideo,#myVideo1,#myVideo2 { min-width: 100%; position: relative; z-index: -3; opacity: 0.5; }
+    .home-header{ max-width:575px; width:100%; }
+    .home-header .bg-clr-mobile { height: 132px; background-color: #036;}
+    .home-header .row>* { padding-right: calc(var(--bs-gutter-x) * 0); padding-left: calc(var(--bs-gutter-x) * 0); }
+    #headerLogo{ position: absolute;  z-index:999; max-width:85px; top:30px; left:3%; }
+    #courseFinder{ display: none; }
+    #myVideo,#myVideo1, #myVideo2 {min-width: 100%; height: 706px; margin-left: -100%;}
+    #naviTop{ position:absolute; z-index:999; right:3%; top:20px; width: auto; font-size: 1.2em; font-weight: bold;}
+    #naviTop a{ color:#fff }    
+    .navbar-toggler { color:#fff }    
+    .carousel-caption { top:3em; padding-left: 2em;}
+    .carousel-caption p {max-width: 575px; font-size: 20px; line-height: 24px; }
+    .carousel-caption h1 { font-size: 45px; max-width: 575px; line-height: 45px !important;}
+    .carousel-indicators { bottom: 10px; }
+    section.expansion h2 { font-size: 55px; line-height: 55px; padding-left:25px}
+    section.expansion p { max-width: 564px; padding-left:0px; font-size: 24px; line-height: 1.2em; float: left; margin-left:0px}
+    .accManBox {min-height: 350px; padding: 25px; }
+    .becomeBtn { font-size: 24px; line-height: 58px; margin-bottom: 50px; width: 324px; height: 78px; } 
+    .accManBox h3 { font-size: 34px;}
+    section.wwNetwork {background-size:contain; background: url(../images/Component-19.png) no-repeat center top; background-size:cover; padding-bottom:80px; display: block;    }
+    
+    section.wwNetwork h2 { font-size: 35px; padding-left: 45px;}
+    section.wwNetwork h2 span {width: 15px; height:15px;}
+    section.wwNetwork div.desc { padding-left: 45px; font-size:20px;    }
+    section.wwNetwork h3.num { font-size: 40px; padding-top: 80px;padding-left: 1rem; }
+    section.wwNetwork span.plus { font-size: 40px;padding-left: 0rem;}
+    section.wwNetwork p { font-size: 25px; line-height: 25px; padding-left: 1rem; padding-bottom:0px}
+    section.courseFinder .cf-divText h2 { font-size: 45px; line-height: 45px;    }
+    section.courseFinder .cf-divText h2 span{ width:15px; height:15px;}
+    section.courseFinder .cf-divText { width: 100%; margin-left: 0%; padding: 50px 1.5em 0px 25px;}
+    section.courseFinder .cf-divText p { font-size: 20px; line-height: 28px;}
+    section.courseFinder .cf-divText table td { font-size: 20px; line-height: 28px;}
+    section.courseFinder .cf-divText table td:nth-child(1) { width: 15px; }
+    section.courseFinder .cf-divText .cFinderBtn { font-size: 24px; line-height: 11px; margin-bottom: 50px; width: 274px; height: 78px;  }
+    .bePartner .right-mg { background: linear-gradient(45deg, rgba(245,255,255, 0.9), rgba(255,255,255, 0.8)), url(../images/hand-shake.png) no-repeat right top; background-size: cover; padding-left:8em }
+    .bePartner { padding-left: 0em; }
+    .learnmoreBtn { font-size: 24px; line-height: 11px; margin-bottom: 50px; width: 274px; height: 78px; }
+    .stdDestination .card h5.card-title { font-size: 28px; }
+    section.courseFinder { background: url(../images/computer_platfrom.png) no-repeat left top; background-size: cover;}
+    .footer .fooSocial img {float: left;margin-left: 10px;outline: none; margin-top:20px}    
+    .footer .sizeonDi .text-end {text-align: left !important;    }    
+    #naviTop { background: #036; padding: 25px;}
+    .bePartner .right-mg { padding-left: 3em;     }
+    .bePartner .card-title { font-size: 50px; }
+    .stdDestination h2 { font-size: 34px; }
+    .stdDestination {padding-top: 40px; padding-left: 25px; padding-right: 25px; }
+    .footer { background: #0f2570; padding: 50px 50px 10px 50px; background-image: url(../images/footer-logo-watermark.png);
+        background-repeat: no-repeat; background-size:cover; background-position: right top; background-size: 100% auto; }
+
+        /**** About ******/
+    .coreValueLeft { width: 50%; margin-top: 7%; margin-right:2%}
+    .coreValueRight {width: 100%; margin-top: 7%; float: left;}
+    .about { background: url(../images/about.png) no-repeat 79% top;  }
+    .about-unifit { max-width: 100%; margin: 0 auto; background:rgba(255,255,255,0.8); padding:100px 50px 50px 50px}
+    .about-unifit h2 { font-size: 34px; line-height: 57px; }
+    .about-unifit p { font-size: 22px; line-height: 28px; margin-top:55px }
+    .text-block .ceoTitle { font-size: 55px;}
+    .ourCEO {background-position: right -75px, right 100px; background-size: contain, 46%; }
+    .ourCEO .text-block { width: 90%; float: right;     }
+    .text-block p { font-size: 20px; line-height: 24px; padding-right: 50px; margin-left: 15px; margin-top: 0px;  }
+    .text-block .sign img{ width:100%    }
+
+    .coreValueLeft {  width: 80%; margin-left: 50px; }
+    .coreValueLeft h2 { font-size: 32px;}
+    .coreValueLeft h2 span { width: 15px; height: 15px;    }
+    .coreValueLeft p { font-size: 24px; line-height: 30px; }
+    .vision {  max-height: 702px; height: 115vh;    }
+    .vision .visionTxt { transform:scale(0.75); margin: 2% auto; }
+    .visionTxt p { font-size: 42px; line-height: 51px; }
+
+     /**** Platform ******/
+    
+     .platform {     background: linear-gradient(45deg, rgba(245,255,255, 0.9), rgba(255,255,255, 0.8)), url(../images/computer_platfrom2.png) no-repeat left top;  background-size: cover;    }
+     .platform .platformTxt { max-width: 375px; width: 100%; margin-right: 0px; }
+     .platform .platformTxt p {  width: 350px;  }
+
+     .platform .demoBtn a { font-size: 34px; line-height: 0;  width: 340px; height: 74px; }
+ 
+     .platform .platformTxt h2 { font-size: 65px; margin-top: 100px;    }
+     .platform .platformTxt p { margin-top: 75px; margin-bottom: 69px; }
+ 
+     /******  Global Access  ******/
+     .globalAccess {transform: scale(0.8);}
+     .globalAccess .globalAccessTxt {  margin-left: 0px; margin-top:0px }
+     .globalAccess .globalAccessTxt p { width: 90%; margin-left: 0px; }
+     .globalAccess .globalAccessTxt h2 {  font-size: 50px; padding-top: 0px; margin-left: 0px; }
+     .globalAccess img{ width:100%    }
+ 
+     /******  Course Finder  ******/
+ 
+     .plt_cFinder .plt_cFinderTxt {margin-left: 20px; max-width: 350px; width: 100%; }
+     
+     .plt_cFinder .plt_cFinderTxt h2 { font-size: 45px;}
+     .plt_cFinder .plt_cFinderTxt p {width: 90%; margin-top: 30px; margin-bottom: 0px; font-size:24px; line-height:30px; }
+     .plt_cFinder table td { font-size: 20px; line-height: 24px;}
+     .plt_cFinder .rightPanlePlatform {margin:78px 0 0 25px; width:80%}
+     .plt_cFinder .cFinderBtn {font-size: 34px; line-height: 0;  width: 275px; height: 74px;    }
+ 
+     /******  Request Demo  ******/
+ 
+     .reqDemo {max-width: 85%; margin: 141px auto 101px auto !important; }
+     .reqDemo .demoCall { font-size: 24px; font-weight: bold; line-height: 0; width: 275px; height: 74px; padding: 10px 0 42px 0 !important;
+    }
+     .reqDemo h3 { font-size: 40px; line-height: 54px; font-weight: 900; color: #010412;    }
+
+
+     /**** partner ******/
+.partner .partnerTxt { margin-right: 0px; background: rgba(255,255,255,.5); max-width: 500px; padding: 89px 0 0 20px !important;}
+.partner .partnerTxt h2 { font-size: 50px; }
+.partner .partnerTxt p { width: 375px;}
+.topPriority .topPriorityTxtBox h3 { font-size: 30px;}
+.learnmoreBtn {font-size: 40px; width: 316px; height: 77px; line-height: 0px; padding: 0px; }
+.partner .partnerTxt .cFinderBtn { font-size: 40px; width: 316px; height: 77px; line-height: 0px; padding: 0px; }
+
+.whyUnifit { max-width: 991px; width:100%;}
+.whyUnifit h2 { font-size: 35px; line-height: 45px;}
+.whyUnifit .whyBox1, .whyBox2, .whyBox3 {width: 261px; float: none; margin-left:auto; margin-right:auto}
+
+.whyUnifit .whyBox1 h3, .whyBox2 h3, .whyBox3 h3 { font-size: 35px; line-height: 1.2em;}
+.whyBox1  { padding: 38px 20px 30px 0;}
+.whyBox2  { padding: 38px 20px 30px 0;}
+.whyBox3  { padding: 38px 20px 30px 0;}
+.whyUnifit .whyBox1 p, .whyBox2 p, .whyBox3 p { font-size: 20px; line-height: 28px; margin: 19px 25px 0 25px;}
+.topPriority { background: url(../images/topPriorityBG.jpg) no-repeat center top; background-size: cover;}
+.topPriority .topPriorityTxtBox {max-width:991px; width: 100%; margin: 52px 0 0 25px; }
+.topPriority .topPriorityTxtBox h2 {font-size: 33px;}
+.topPriority .topPriorityTxtBox p { max-width: 362px; width: 100%; font-size: 24px;}
+.topPriority .topPriorityTxtBox .topPriorityBlock1 {float: none;text-align: left; max-width:245px; width:100%; margin-left:auto; margin-right:auto}
+.topPriority .topPriorityTxtBox .topPriorityBlock1 p {font-size: 24px;}
+
+.topPriority .topPriorityimgBox {max-width: 26%; display: none;}
+
+.studentLoanLeft {float: left; width: 90%; margin-left: 20px;padding: 81px 0;}
+.studentLoanRight {float: right; width: 90%; margin-top: 0px; padding-right:45px}
+}
